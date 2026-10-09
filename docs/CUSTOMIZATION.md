@@ -33,7 +33,6 @@ Visit [https://github.com/devcldkai229](https://github.com/devcldkai229) and con
 |------|--------|
 | Intro / positioning copy | `README.md` top sections |
 | Tech stack icons and labels | `README.md` - Engineering Toolkit |
-| Architecture caption / principles | `README.md` - How I Think About Systems |
 | Explore CTA | `README.md` - Explore My Repositories |
 | Colors / motifs | `docs/DESIGN.md` + SVG fills/strokes in `assets/` |
 | Hero / diagrams | `assets/*.svg` |

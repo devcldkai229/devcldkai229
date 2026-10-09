@@ -63,18 +63,16 @@ Light-mode variants invert surfaces to slate/white/indigo washes while keeping c
 2. Introduction and identity
 3. Engineering focus
 4. Engineering Toolkit
-5. How I Think About Systems
-6. Explore My Repositories (gateway -- no curated project list)
-7. GitHub Activity
-8. Connect
-9. Signature footer
+5. Explore My Repositories (gateway -- no curated project list)
+6. GitHub Activity
+7. Connect
+8. Signature footer
 
 ## Asset map
 
 | File | Purpose |
 |------|---------|
 | `assets/hero-dark.svg` / `hero-light.svg` | Primary brand banner |
-| `assets/architecture-dark.svg` / `architecture-light.svg` | Conceptual system diagram |
 | `assets/explore-repos-dark.svg` / `explore-repos-light.svg` | Repository mesh gateway |
 | `assets/footer.svg` | Closing signature |
 

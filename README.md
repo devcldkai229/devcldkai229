@@ -130,38 +130,6 @@ I work across the stack when needed, but my center of gravity is **server-side a
 
 ---
 
-## How I Think About Systems
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg"/>
-    <img src="./assets/architecture-dark.svg" alt="Conceptual architecture: Clients, API Gateway, Backend Services, Event Streaming, Data Stores, plus Containers, Kubernetes, Cloud, and Observability" width="100%"/>
-  </picture>
-</div>
-
-<br/>
-
-<p align="center">
-  <em>I care about more than making services work. I'm interested in how they behave under load, recover from failures, and evolve as systems grow.</em>
-</p>
-
-<p align="center">
-  <code>Scalability</code>
-  &nbsp;&middot;&nbsp;
-  <code>Fault Tolerance</code>
-  &nbsp;&middot;&nbsp;
-  <code>Event-Driven</code>
-  &nbsp;&middot;&nbsp;
-  <code>Observability</code>
-  &nbsp;&middot;&nbsp;
-  <code>Performance</code>
-  &nbsp;&middot;&nbsp;
-  <code>Cloud-Native</code>
-</p>
-
----
-
 ## Explore My Repositories
 
 I keep experiments, systems work, and infrastructure explorations in my public repositories - browse them directly rather than through a curated shortlist.
