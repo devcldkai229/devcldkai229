@@ -17,7 +17,7 @@ A premium personal engineering brand (not corporate documentation):
 1. **One palette only** for chrome -- no vendor rainbow badges (no orange RabbitMQ, green Swagger, purple Axios, etc.).
 2. **Artwork over badges** -- hero, toolkit frame, explore, and footer do the visual work.
 3. **Typography for identity** -- focus areas as soft prose or subtle labels, not `<code>` chip walls or doc headings.
-4. **Tech icons: elegant gallery** -- Skill Icons with dark/light themes; sparse `<sub>` captions; thin SVG rules for rhythm. No rainbow shields.
+4. **Tech icons: horizontal rows** -- Skill Icons in simple centered rows; remaining tools as one middot text line. No rainbow shields.
 5. **Quieter motion** -- packets + at most one soft accent per SVG; avoid busy float/pulse on every node.
 6. **Whitespace as luxury** -- breathing room in compositions and README sections.
 7. Every element must feel intentional. Prefer remove over decorate. Avoid corporate outline look (`###` stacks, checklist cadence).
@@ -62,7 +62,7 @@ Light-mode variants invert surfaces to slate/white/indigo washes while keeping c
 
 1. Hero banner
 2. Introduction and identity (focus line woven in)
-3. Toolkit gallery (header SVG + icon bands)
+3. Engineering Toolkit (horizontal icon rows)
 4. Explore My Repositories (gateway -- no curated project list)
 5. GitHub Activity
 6. Connect
@@ -73,8 +73,6 @@ Light-mode variants invert surfaces to slate/white/indigo washes while keeping c
 | File | Purpose |
 |------|---------|
 | `assets/hero-dark.svg` / `hero-light.svg` | Primary brand banner |
-| `assets/toolkit-header-*.svg` | Toolkit gallery header |
-| `assets/gallery-rule-*.svg` | Subtle divider between icon bands |
 | `assets/explore-repos-dark.svg` / `explore-repos-light.svg` | Repository mesh gateway |
 | `assets/footer.svg` | Closing signature |
 
