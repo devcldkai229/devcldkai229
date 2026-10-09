@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">OPSIDIAN - Software Engineer</title>
+  <desc id="heroDesc">Premium dark banner with OPSIDIAN branding and a distributed cloud infrastructure diagram</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080F1E"/>
+      <stop offset="55%" stop-color="#0C1829"/>
+      <stop offset="100%" stop-color="#13243A"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A3352"/>
+      <stop offset="100%" stop-color="#13243A"/>
+    </linearGradient>
+    <linearGradient id="streakGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .label { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .brand { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; font-weight: 700; letter-spacing: 0.12em; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @media (prefers-reduced-motion: reduce) {
+        .anim, .anim * { animation: none !important; }
+        .packet { display: none; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-3px); }
+      }
+      @keyframes sweep {
+        0% { opacity: 0; transform: translateX(-40px); }
+        40% { opacity: 0.7; }
+        100% { opacity: 0; transform: translateX(60px); }
+      }
+      .node-pulse { animation: pulse 4.5s ease-in-out infinite; }
+      .float-a { animation: float 7s ease-in-out infinite; }
+      .float-b { animation: float 9s ease-in-out infinite 1.2s; }
+      .light-sweep { animation: sweep 8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="380" fill="url(#bgGrad)"/>
+  <rect width="1280" height="380" fill="url(#glowCyan)" opacity="0.4"/>
+
+  <g opacity="0.18" stroke="#3B82F6" stroke-width="0.6" fill="none">
+    <path d="M640 220 L200 380 M640 220 L320 380 M640 220 L440 380 M640 220 L560 380 M640 220 L720 380 M640 220 L840 380 M640 220 L960 380 M640 220 L1080 380"/>
+    <path d="M180 300 H1100 M220 320 H1060 M270 340 H1010 M330 360 H950"/>
+  </g>
+
+  <g fill="#F8FAFC">
+    <circle cx="720" cy="42" r="1.2" opacity="0.5"/><circle cx="780" cy="68" r="0.9" opacity="0.35"/>
+    <circle cx="860" cy="38" r="1.1" opacity="0.45"/><circle cx="940" cy="55" r="0.8" opacity="0.3"/>
+    <circle cx="1010" cy="30" r="1.3" opacity="0.5"/><circle cx="1080" cy="72" r="0.9" opacity="0.35"/>
+    <circle cx="1140" cy="48" r="1" opacity="0.4"/><circle cx="1220" cy="90" r="0.8" opacity="0.3"/>
+    <circle cx="690" cy="110" r="0.7" opacity="0.25"/><circle cx="1180" cy="140" r="1" opacity="0.35"/>
+  </g>
+
+  <g class="anim">
+    <rect class="light-sweep" x="700" y="100" width="180" height="1.5" fill="url(#streakGrad)" rx="1"/>
+    <rect class="light-sweep" x="820" y="280" width="140" height="1" fill="url(#streakGrad)" rx="1" style="animation-delay:3s"/>
+  </g>
+
+  <g class="mono" fill="#94A3B8" font-size="9" opacity="0.55">
+    <text x="700" y="28">SYS.ARCH // 0x2A</text>
+    <text x="1160" y="28">LAT 10.8N</text>
+    <text x="700" y="368">NODE.MESH</text>
+    <text x="1120" y="368">v.cloud</text>
+  </g>
+
+  <g>
+    <text class="brand" x="56" y="118" font-size="56" fill="url(#textGrad)">OPSIDIAN</text>
+    <text class="label" x="56" y="158" font-size="15" fill="#22D3EE" letter-spacing="0.28em" font-weight="600">SOFTWARE ENGINEER</text>
+    <text class="label" x="56" y="188" font-size="12" fill="#94A3B8" letter-spacing="0.14em">BACKEND | DISTRIBUTED SYSTEMS | CLOUD</text>
+    <line x1="56" y1="210" x2="220" y2="210" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+    <text class="label" x="56" y="242" font-size="15" fill="#F8FAFC" font-style="italic">"Designing resilient systems.</text>
+    <text class="label" x="56" y="266" font-size="15" fill="#F8FAFC" font-style="italic">Building beyond the backend."</text>
+    <g fill="#22D3EE">
+      <circle cx="56" cy="300" r="3" opacity="0.9"/>
+      <circle cx="72" cy="300" r="2.2" opacity="0.5"/>
+      <circle cx="86" cy="300" r="1.6" opacity="0.3"/>
+    </g>
+  </g>
+
+  <g class="anim" transform="translate(40,0)">
+    <g fill="none" stroke="#3B82F6" stroke-width="1.2" opacity="0.55">
+      <path d="M780 95 C820 95, 840 130, 880 145"/>
+      <path d="M780 95 C820 95, 840 70, 900 80"/>
+      <path d="M880 145 C920 160, 940 175, 980 190"/>
+      <path d="M900 80 C950 90, 970 140, 980 190"/>
+      <path d="M980 190 C1020 210, 1040 230, 1080 245"/>
+      <path d="M980 190 C1020 170, 1060 155, 1100 150"/>
+      <path d="M880 145 C900 200, 920 250, 960 280"/>
+      <path d="M1080 245 C1100 260, 1120 275, 1140 290"/>
+      <path d="M1100 150 C1120 180, 1130 220, 1140 290"/>
+    </g>
+
+    <g filter="url(#softGlow)">
+      <circle class="packet" r="3" fill="#22D3EE">
+        <animateMotion dur="5s" repeatCount="indefinite" path="M780 95 C820 95, 840 130, 880 145"/>
+      </circle>
+      <circle class="packet" r="2.5" fill="#818CF8">
+        <animateMotion dur="6.5s" repeatCount="indefinite" begin="1s" path="M900 80 C950 90, 970 140, 980 190"/>
+      </circle>
+      <circle class="packet" r="2.5" fill="#22D3EE">
+        <animateMotion dur="7s" repeatCount="indefinite" begin="2s" path="M980 190 C1020 210, 1040 230, 1080 245"/>
+      </circle>
+      <circle class="packet" r="2" fill="#3B82F6">
+        <animateMotion dur="5.5s" repeatCount="indefinite" begin="0.5s" path="M880 145 C900 200, 920 250, 960 280"/>
+      </circle>
+    </g>
+
+    <g class="float-a node-pulse" transform="translate(740,70)">
+      <rect x="0" y="0" width="80" height="50" rx="6" fill="url(#nodeGrad)" stroke="#22D3EE" stroke-width="1.4"/>
+      <text class="label" x="40" y="22" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">API GATEWAY</text>
+      <text class="mono" x="40" y="38" text-anchor="middle" fill="#94A3B8" font-size="7">edge | tls</text>
+      <circle cx="72" cy="10" r="3" fill="#22D3EE"/>
+    </g>
+
+    <g class="float-b" transform="translate(860,120)">
+      <rect x="0" y="0" width="70" height="44" rx="5" fill="url(#nodeGrad)" stroke="#3B82F6" stroke-width="1.2"/>
+      <text class="label" x="35" y="20" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">SERVICE</text>
+      <text class="mono" x="35" y="34" text-anchor="middle" fill="#94A3B8" font-size="7">auth | api</text>
+    </g>
+
+    <g class="float-a" transform="translate(870,55)">
+      <rect x="0" y="0" width="70" height="44" rx="5" fill="url(#nodeGrad)" stroke="#818CF8" stroke-width="1.2"/>
+      <text class="label" x="35" y="20" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">SERVICE</text>
+      <text class="mono" x="35" y="34" text-anchor="middle" fill="#94A3B8" font-size="7">orders</text>
+    </g>
+
+    <g class="float-b node-pulse" transform="translate(945,165)">
+      <rect x="0" y="0" width="78" height="50" rx="6" fill="url(#nodeGrad)" stroke="#22D3EE" stroke-width="1.3"/>
+      <text class="label" x="39" y="20" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">STREAMING</text>
+      <text class="mono" x="39" y="36" text-anchor="middle" fill="#94A3B8" font-size="7">kafka | events</text>
+      <circle cx="70" cy="10" r="2.5" fill="#22D3EE" opacity="0.8"/>
+    </g>
+
+    <g class="float-a" transform="translate(1045,220)">
+      <ellipse cx="40" cy="12" rx="38" ry="10" fill="#1A3352" stroke="#3B82F6" stroke-width="1.2"/>
+      <rect x="2" y="12" width="76" height="28" fill="#13243A" stroke="none"/>
+      <line x1="2" y1="12" x2="2" y2="40" stroke="#3B82F6" stroke-width="1.2"/>
+      <line x1="78" y1="12" x2="78" y2="40" stroke="#3B82F6" stroke-width="1.2"/>
+      <ellipse cx="40" cy="40" rx="38" ry="10" fill="#1A3352" stroke="#3B82F6" stroke-width="1.2"/>
+      <text class="label" x="40" y="30" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">DATA STORE</text>
+    </g>
+
+    <g class="float-b" transform="translate(1065,125)">
+      <rect x="0" y="0" width="76" height="48" rx="6" fill="url(#nodeGrad)" stroke="#818CF8" stroke-width="1.2"/>
+      <text class="label" x="38" y="20" text-anchor="middle" fill="#F8FAFC" font-size="9" font-weight="600">KUBERNETES</text>
+      <text class="mono" x="38" y="36" text-anchor="middle" fill="#94A3B8" font-size="7">cluster | pods</text>
+    </g>
+
+    <g class="float-a" transform="translate(1110,265)">
+      <path d="M20 28 C8 28 2 20 8 14 C10 6 22 4 28 10 C34 4 48 6 50 16 C58 16 60 28 48 28 Z" fill="#1A3352" stroke="#22D3EE" stroke-width="1.2"/>
+      <text class="label" x="30" y="26" text-anchor="middle" fill="#F8FAFC" font-size="8" font-weight="600">CLOUD</text>
+    </g>
+
+    <g class="float-b node-pulse" transform="translate(925,255)">
+      <rect x="0" y="0" width="72" height="46" rx="5" fill="url(#nodeGrad)" stroke="#3B82F6" stroke-width="1.2"/>
+      <text class="label" x="36" y="18" text-anchor="middle" fill="#F8FAFC" font-size="8" font-weight="600">TELEMETRY</text>
+      <rect x="14" y="28" width="6" height="10" rx="1" fill="#22D3EE" opacity="0.7"/>
+      <rect x="24" y="24" width="6" height="14" rx="1" fill="#3B82F6" opacity="0.8"/>
+      <rect x="34" y="26" width="6" height="12" rx="1" fill="#818CF8" opacity="0.7"/>
+      <rect x="44" y="22" width="6" height="16" rx="1" fill="#22D3EE" opacity="0.9"/>
+    </g>
+
+    <g class="mono" fill="#94A3B8" font-size="8" opacity="0.5">
+      <text x="740" y="55">ingress</text>
+      <text x="1165" y="120">orch</text>
+      <text x="1025" y="160">bus</text>
+    </g>
+  </g>
+</svg>
