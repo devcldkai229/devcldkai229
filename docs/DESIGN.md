@@ -4,22 +4,23 @@ Visual identity for the `devcldkai229` GitHub profile README.
 
 ## Theme: OPSIDIAN Cloud Architecture
 
-A premium backend / cloud engineer portfolio language:
+A premium personal engineering brand (not corporate documentation):
 
 - Elegant, architectural, futuristic, technical
-- Minimal but rich -- artwork carries identity
+- Minimal but rich -- artwork and icon gallery carry identity
 - Restrained cyberpunk atmosphere (never neon overload)
 - Cloud blueprints and quiet terminal aesthetics
+- Tooling reads as a modern showcase with visual rhythm, not a skills checklist
 
 ## Restraint rules (non-negotiable)
 
 1. **One palette only** for chrome -- no vendor rainbow badges (no orange RabbitMQ, green Swagger, purple Axios, etc.).
-2. **Artwork over badges** -- hero, architecture, explore, and footer do the visual work.
-3. **Typography for identity** -- focus areas and principles as readable text or monospace lines, not shield spam.
-4. **Tech icons: uniform or absent** -- Skill Icons rows only; concepts without icons as muted monospace labels.
+2. **Artwork over badges** -- hero, toolkit frame, explore, and footer do the visual work.
+3. **Typography for identity** -- focus areas as soft prose or subtle labels, not `<code>` chip walls or doc headings.
+4. **Tech icons: elegant gallery** -- Skill Icons with dark/light themes; sparse `<sub>` captions; thin SVG rules for rhythm. No rainbow shields.
 5. **Quieter motion** -- packets + at most one soft accent per SVG; avoid busy float/pulse on every node.
 6. **Whitespace as luxury** -- breathing room in compositions and README sections.
-7. Every element must feel intentional. Prefer remove over decorate.
+7. Every element must feel intentional. Prefer remove over decorate. Avoid corporate outline look (`###` stacks, checklist cadence).
 
 ## Color tokens
 
@@ -60,19 +61,20 @@ Light-mode variants invert surfaces to slate/white/indigo washes while keeping c
 ## Section information architecture
 
 1. Hero banner
-2. Introduction and identity
-3. Engineering focus
-4. Engineering Toolkit
-5. Explore My Repositories (gateway -- no curated project list)
-6. GitHub Activity
-7. Connect
-8. Signature footer
+2. Introduction and identity (focus line woven in)
+3. Toolkit gallery (header SVG + icon bands)
+4. Explore My Repositories (gateway -- no curated project list)
+5. GitHub Activity
+6. Connect
+7. Signature footer
 
 ## Asset map
 
 | File | Purpose |
 |------|---------|
 | `assets/hero-dark.svg` / `hero-light.svg` | Primary brand banner |
+| `assets/toolkit-header-*.svg` | Toolkit gallery header |
+| `assets/gallery-rule-*.svg` | Subtle divider between icon bands |
 | `assets/explore-repos-dark.svg` / `explore-repos-light.svg` | Repository mesh gateway |
 | `assets/footer.svg` | Closing signature |
 

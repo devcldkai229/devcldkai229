@@ -9,8 +9,8 @@ Keep the profile looking like a premium backend / cloud portfolio:
 - Do **not** add colorful shields.io vendor badges (rainbow logos break the palette).
 - Navigation and CTAs: plain Markdown text links.
 - Focus areas and principles: monospace or plain text lines.
-- Toolkit: Skill Icons rows + muted monospace labels for anything without an icon.
-- Custom SVGs carry the visual identity; README chrome stays quiet.
+- Toolkit: Skill Icons gallery (`theme=dark` / `theme=light`) with sparse `<sub>` captions and SVG rules — not a documentation outline of `###` headings.
+- Custom SVGs carry brand identity; chrome stays quiet and intentional.
 - See [`DESIGN.md`](DESIGN.md) restraint rules before adding decoration.
 
 ## Publish the profile

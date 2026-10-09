@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 72" role="img" aria-labelledby="thTitleL thDescL">
+  <title id="thTitleL">Engineering Toolkit</title>
+  <desc id="thDescL">Elegant gallery header for the OPSIDIAN tooling showcase</desc>
+  <defs>
+    <linearGradient id="thLineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#0891B2" stop-opacity="0.5"/>
+      <stop offset="65%" stop-color="#2563EB" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .t { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <line x1="40" y1="20" x2="260" y2="20" stroke="url(#thLineL)" stroke-width="1"/>
+  <line x1="460" y1="20" x2="680" y2="20" stroke="url(#thLineL)" stroke-width="1"/>
+  <circle cx="270" cy="20" r="2.5" fill="#0891B2" opacity="0.85"/>
+  <circle cx="450" cy="20" r="2.5" fill="#6366F1" opacity="0.85"/>
+  <text class="t" x="360" y="26" text-anchor="middle" fill="#0F172A" font-size="13" font-weight="600" letter-spacing="0.28em">TOOLKIT</text>
+  <text class="m" x="360" y="52" text-anchor="middle" fill="#64748B" font-size="10" letter-spacing="0.08em">languages  |  systems  |  cloud  |  delivery</text>
+</svg>

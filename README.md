@@ -28,111 +28,175 @@ I'm a software engineer based in **Ho Chi Minh City, Vietnam**, focused on **bac
   <a href="https://www.linkedin.com/in/opsidian-ngykhai">LinkedIn</a>
 </p>
 
----
-
-### Engineering Focus
+<br/>
 
 <p align="center">
-  <code>Backend Engineering</code>
+  Backend Engineering
   &nbsp;&middot;&nbsp;
-  <code>Distributed Systems</code>
+  Distributed Systems
   &nbsp;&middot;&nbsp;
-  <code>Cloud &amp; DevOps</code>
+  Cloud &amp; DevOps
   &nbsp;&middot;&nbsp;
-  <code>System Design</code>
-</p>
-
-I work across the stack when needed, but my center of gravity is **server-side architecture**: service boundaries, messaging, data consistency, infrastructure automation, and reliability.
-
----
-
-## Engineering Toolkit
-
-### Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,cs,go,python,ts" alt="Java, C#, Go, Python, TypeScript"/>
-</p>
-
-### Backend, APIs & AI
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=spring,dotnet" alt="Spring Boot, ASP.NET Core"/>
+  System Design
 </p>
 
 <p align="center">
-  <code>Gin</code>
-  &nbsp;&middot;&nbsp;
-  <code>LangGraph</code>
-  &nbsp;&middot;&nbsp;
-  <code>REST APIs</code>
-  &nbsp;&middot;&nbsp;
-  <code>gRPC</code>
-  &nbsp;&middot;&nbsp;
-  <code>ROS 2</code>
+  <i>Server-side architecture is my center of gravity — service boundaries, messaging, consistency, and reliability.</i>
 </p>
 
-### Frontend
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/toolkit-header-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/toolkit-header-light.svg"/>
+    <img src="./assets/toolkit-header-dark.svg" alt="Engineering Toolkit" width="420"/>
+  </picture>
+</div>
+
+<br/>
+
+<p align="center"><sub>LANGUAGES</sub></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind" alt="React, Vite, Tailwind CSS"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,cs,go,python,ts&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,cs,go,python,ts&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=java,cs,go,python,ts&theme=dark" alt="Java, C#, Go, Python, TypeScript" height="48"/>
+  </picture>
 </p>
 
-<p align="center">
-  <code>Axios</code>
-</p>
+<br/>
 
-### Databases, Caching & Messaging
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery-rule-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/gallery-rule-light.svg"/>
+    <img src="./assets/gallery-rule-dark.svg" alt="" width="240"/>
+  </picture>
+</div>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka" alt="PostgreSQL, MongoDB, Redis, Kafka"/>
-</p>
+<br/>
 
-<p align="center">
-  <code>SQL Server</code>
-  &nbsp;&middot;&nbsp;
-  <code>RabbitMQ</code>
-</p>
-
-### Cloud, Containers & Infrastructure
+<p align="center"><sub>BACKEND &amp; SYSTEMS</sub></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux" alt="AWS, Docker, Kubernetes, Terraform, Linux"/>
-</p>
-
-<p align="center">
-  <code>Helm</code>
-</p>
-
-### DevOps & Observability
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=githubactions,prometheus,grafana" alt="GitHub Actions, Prometheus, Grafana"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=spring,dotnet&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=spring,dotnet&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=spring,dotnet&theme=dark" alt="Spring Boot, ASP.NET Core" height="48"/>
+  </picture>
 </p>
 
 <p align="center">
-  <code>CI/CD</code>
-  &nbsp;&middot;&nbsp;
-  <code>Elastic Stack</code>
+  <sub>Gin &nbsp;&middot;&nbsp; LangGraph &nbsp;&middot;&nbsp; REST &nbsp;&middot;&nbsp; gRPC &nbsp;&middot;&nbsp; ROS 2</sub>
 </p>
 
-### Toolchain
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery-rule-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/gallery-rule-light.svg"/>
+    <img src="./assets/gallery-rule-dark.svg" alt="" width="240"/>
+  </picture>
+</div>
+
+<br/>
+
+<p align="center"><sub>FRONTEND</sub></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,bash,maven,nginx" alt="Git, GitHub, Bash, Maven, Nginx"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,vite,tailwind&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,vite,tailwind&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=react,vite,tailwind&theme=dark" alt="React, Vite, Tailwind CSS" height="48"/>
+  </picture>
+</p>
+
+<p align="center"><sub>Axios</sub></p>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery-rule-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/gallery-rule-light.svg"/>
+    <img src="./assets/gallery-rule-dark.svg" alt="" width="240"/>
+  </picture>
+</div>
+
+<br/>
+
+<p align="center"><sub>DATA &amp; MESSAGING</sub></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka&theme=dark" alt="PostgreSQL, MongoDB, Redis, Kafka" height="48"/>
+  </picture>
+</p>
+
+<p align="center"><sub>SQL Server &nbsp;&middot;&nbsp; RabbitMQ</sub></p>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery-rule-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/gallery-rule-light.svg"/>
+    <img src="./assets/gallery-rule-dark.svg" alt="" width="240"/>
+  </picture>
+</div>
+
+<br/>
+
+<p align="center"><sub>CLOUD &amp; INFRASTRUCTURE</sub></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux&theme=dark" alt="AWS, Docker, Kubernetes, Terraform, Linux" height="48"/>
+  </picture>
+</p>
+
+<p align="center"><sub>Helm</sub></p>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery-rule-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/gallery-rule-light.svg"/>
+    <img src="./assets/gallery-rule-dark.svg" alt="" width="240"/>
+  </picture>
+</div>
+
+<br/>
+
+<p align="center"><sub>DELIVERY &amp; OBSERVABILITY</sub></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=githubactions,prometheus,grafana,git,github,bash,maven,nginx&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=githubactions,prometheus,grafana,git,github,bash,maven,nginx&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=githubactions,prometheus,grafana,git,github,bash,maven,nginx&theme=dark" alt="GitHub Actions, Prometheus, Grafana, Git, GitHub, Bash, Maven, Nginx" height="48"/>
+  </picture>
 </p>
 
 <p align="center">
-  <code>OpenAPI / Swagger</code>
-  &nbsp;&middot;&nbsp;
-  <code>OpenTelemetry</code>
+  <sub>CI/CD &nbsp;&middot;&nbsp; Elastic Stack &nbsp;&middot;&nbsp; OpenAPI &nbsp;&middot;&nbsp; OpenTelemetry</sub>
 </p>
+
+<br/>
 
 ---
 
 ## Explore My Repositories
 
-I keep experiments, systems work, and infrastructure explorations in my public repositories - browse them directly rather than through a curated shortlist.
+Experiments, systems work, and infrastructure explorations — browse the full mesh.
 
 <div align="center">
   <picture>
