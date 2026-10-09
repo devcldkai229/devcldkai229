@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" role="img" aria-labelledby="exTitleL exDescL">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" role="img" aria-labelledby="exTitleL exDescL">
   <title id="exTitleL">Explore repositories - interconnected systems</title>
-  <desc id="exDescL">Abstract illustration of interconnected repository nodes representing distributed software systems</desc>
+  <desc id="exDescL">Abstract repository mesh of generic nodes representing systems, experiments, and infrastructure</desc>
   <defs>
     <linearGradient id="exBgL" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
     <linearGradient id="exNodeL" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#EEF2FF"/>
     </linearGradient>
-    <radialGradient id="exGlowL" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.1"/>
+    <radialGradient id="exGlowL" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0891B2" stop-opacity="0"/>
     </radialGradient>
     <filter id="exSoftL" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
@@ -25,105 +25,83 @@
         .anim, .anim * { animation: none !important; }
         .packet { display: none; }
       }
-      @keyframes pulse { 0%,100%{opacity:.7} 50%{opacity:1} }
-      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .f1 { animation: float 8s ease-in-out infinite; }
-      .f2 { animation: float 10s ease-in-out infinite 1s; }
-      .f3 { animation: float 9s ease-in-out infinite 2s; }
     </style>
   </defs>
 
-  <rect width="1100" height="320" rx="12" fill="url(#exBgL)"/>
-  <rect width="1100" height="320" rx="12" fill="url(#exGlowL)"/>
-  <rect x="1" y="1" width="1098" height="318" rx="11" fill="none" stroke="#BFDBFE" stroke-width="1"/>
+  <rect width="1100" height="280" rx="12" fill="url(#exBgL)"/>
+  <rect width="1100" height="280" rx="12" fill="url(#exGlowL)"/>
+  <rect x="1" y="1" width="1098" height="278" rx="11" fill="none" stroke="#E2E8F0" stroke-width="1"/>
 
-  <g opacity="0.14" stroke="#2563EB" stroke-width="0.6" fill="none">
-    <path d="M550 40 L100 300 M550 40 L300 300 M550 40 L500 300 M550 40 L700 300 M550 40 L900 300 M550 40 L1000 300"/>
+  <g opacity="0.10" stroke="#2563EB" stroke-width="0.5" fill="none">
+    <path d="M550 30 L120 250 M550 30 L320 250 M550 30 L500 250 M550 30 L700 250 M550 30 L900 250 M550 30 L980 250"/>
   </g>
 
-  <g class="anim" fill="none" stroke="#2563EB" stroke-width="1.1" opacity="0.4">
-    <path d="M280 160 C340 120, 400 100, 480 140"/>
-    <path d="M280 160 C340 200, 400 220, 480 180"/>
-    <path d="M480 140 C540 100, 600 90, 680 130"/>
-    <path d="M480 180 C540 220, 600 230, 680 190"/>
-    <path d="M680 130 C740 100, 800 110, 860 150"/>
-    <path d="M680 190 C740 230, 800 220, 860 170"/>
-    <path d="M480 140 C520 160, 520 160, 480 180"/>
-    <path d="M680 130 C720 160, 720 160, 680 190"/>
-    <path d="M200 100 C240 130, 260 140, 280 160"/>
-    <path d="M200 220 C240 190, 260 180, 280 160"/>
-    <path d="M860 150 C900 130, 940 110, 980 90"/>
-    <path d="M860 170 C900 190, 940 210, 980 230"/>
+  <g fill="none" stroke="#2563EB" stroke-width="1.0" opacity="0.32">
+    <path d="M270 130 C340 95, 410 85, 480 115"/>
+    <path d="M270 130 C340 165, 410 175, 480 145"/>
+    <path d="M480 115 C545 85, 610 80, 680 110"/>
+    <path d="M480 145 C545 175, 610 180, 680 150"/>
+    <path d="M680 110 C745 85, 810 95, 860 125"/>
+    <path d="M680 150 C745 175, 810 170, 860 140"/>
+    <path d="M200 85 C235 105, 255 115, 270 130"/>
+    <path d="M200 180 C235 160, 255 145, 270 130"/>
+    <path d="M860 125 C905 105, 945 90, 990 75"/>
+    <path d="M860 140 C905 160, 945 175, 990 195"/>
   </g>
 
   <g class="anim" filter="url(#exSoftL)">
-    <circle class="packet" r="2.8" fill="#0891B2">
-      <animateMotion dur="5s" repeatCount="indefinite" path="M280 160 C340 120, 400 100, 480 140"/>
+    <circle class="packet" r="2.4" fill="#0891B2">
+      <animateMotion dur="6.5s" repeatCount="indefinite" path="M270 130 C340 95, 410 85, 480 115"/>
     </circle>
-    <circle class="packet" r="2.4" fill="#6366F1">
-      <animateMotion dur="6s" repeatCount="indefinite" begin="1s" path="M480 180 C540 220, 600 230, 680 190"/>
+    <circle class="packet" r="2.1" fill="#6366F1">
+      <animateMotion dur="7.5s" repeatCount="indefinite" begin="1.5s" path="M480 145 C545 175, 610 180, 680 150"/>
     </circle>
-    <circle class="packet" r="2.6" fill="#0891B2">
-      <animateMotion dur="5.5s" repeatCount="indefinite" begin="2s" path="M680 130 C740 100, 800 110, 860 150"/>
+    <circle class="packet" r="2.2" fill="#0891B2">
+      <animateMotion dur="7s" repeatCount="indefinite" begin="2.5s" path="M680 110 C745 85, 810 95, 860 125"/>
     </circle>
-    <circle class="packet" r="2.2" fill="#2563EB">
-      <animateMotion dur="7s" repeatCount="indefinite" begin="0.5s" path="M200 100 C240 130, 260 140, 280 160"/>
-    </circle>
-  </g>
-
-  <g class="anim">
-    <g class="f1 pulse" transform="translate(245,130)">
-      <rect width="70" height="60" rx="8" fill="url(#exNodeL)" stroke="#0891B2" stroke-width="1.5"/>
-      <rect x="18" y="14" width="34" height="28" rx="3" fill="none" stroke="#0891B2" stroke-width="1.2" opacity="0.75"/>
-      <path d="M28 28 H42 M28 34 H38" stroke="#64748B" stroke-width="1" opacity="0.6"/>
-      <circle cx="58" cy="12" r="3" fill="#0891B2"/>
-    </g>
-
-    <g class="f2" transform="translate(450,110)">
-      <rect width="60" height="52" rx="7" fill="url(#exNodeL)" stroke="#2563EB" stroke-width="1.2"/>
-      <rect x="14" y="12" width="32" height="24" rx="2" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.75"/>
-      <path d="M22 24 H38 M22 30 H34" stroke="#64748B" stroke-width="1" opacity="0.5"/>
-    </g>
-
-    <g class="f3" transform="translate(450,160)">
-      <rect width="60" height="52" rx="7" fill="url(#exNodeL)" stroke="#6366F1" stroke-width="1.2"/>
-      <rect x="14" y="12" width="32" height="24" rx="2" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.75"/>
-      <path d="M22 24 H38 M22 30 H34" stroke="#64748B" stroke-width="1" opacity="0.5"/>
-    </g>
-
-    <g class="f1" transform="translate(650,100)">
-      <rect width="60" height="52" rx="7" fill="url(#exNodeL)" stroke="#0891B2" stroke-width="1.2"/>
-      <rect x="14" y="12" width="32" height="24" rx="2" fill="none" stroke="#0891B2" stroke-width="1" opacity="0.75"/>
-      <path d="M22 24 H38 M22 30 H34" stroke="#64748B" stroke-width="1" opacity="0.5"/>
-    </g>
-
-    <g class="f2 pulse" transform="translate(650,165)">
-      <rect width="60" height="52" rx="7" fill="url(#exNodeL)" stroke="#2563EB" stroke-width="1.2"/>
-      <rect x="14" y="12" width="32" height="24" rx="2" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.75"/>
-      <path d="M22 24 H38 M22 30 H34" stroke="#64748B" stroke-width="1" opacity="0.5"/>
-    </g>
-
-    <g class="f3" transform="translate(830,125)">
-      <rect width="70" height="58" rx="8" fill="url(#exNodeL)" stroke="#6366F1" stroke-width="1.3"/>
-      <rect x="18" y="14" width="34" height="26" rx="3" fill="none" stroke="#6366F1" stroke-width="1.1" opacity="0.75"/>
-      <path d="M28 28 H42 M28 34 H38" stroke="#64748B" stroke-width="1" opacity="0.55"/>
-      <circle cx="58" cy="12" r="2.5" fill="#6366F1"/>
-    </g>
-
-    <circle class="pulse" cx="200" cy="100" r="8" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.2"/>
-    <circle class="pulse" cx="200" cy="220" r="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.2"/>
-    <circle class="pulse" cx="980" cy="90" r="7" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2"/>
-    <circle class="pulse" cx="980" cy="230" r="8" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.2"/>
   </g>
 
   <g>
-    <text class="t" x="550" y="270" text-anchor="middle" fill="#0F172A" font-size="16" font-weight="600" letter-spacing="0.08em">REPOSITORY MESH</text>
-    <text class="m" x="550" y="292" text-anchor="middle" fill="#64748B" font-size="10">systems | experiments | infrastructure</text>
+    <g transform="translate(240,104)">
+      <rect width="60" height="52" rx="6" fill="url(#exNodeL)" stroke="#0891B2" stroke-width="1.1"/>
+      <rect x="16" y="14" width="28" height="22" rx="2" fill="none" stroke="#0891B2" stroke-width="0.9" opacity="0.55"/>
+      <circle cx="50" cy="10" r="2.5" fill="#0891B2"/>
+    </g>
+
+    <g transform="translate(450,90)">
+      <rect width="54" height="46" rx="6" fill="url(#exNodeL)" stroke="#2563EB" stroke-width="1.0"/>
+      <rect x="13" y="12" width="28" height="20" rx="2" fill="none" stroke="#2563EB" stroke-width="0.9" opacity="0.5"/>
+    </g>
+
+    <g transform="translate(450,140)">
+      <rect width="54" height="46" rx="6" fill="url(#exNodeL)" stroke="#6366F1" stroke-width="1.0"/>
+      <rect x="13" y="12" width="28" height="20" rx="2" fill="none" stroke="#6366F1" stroke-width="0.9" opacity="0.5"/>
+    </g>
+
+    <g transform="translate(655,85)">
+      <rect width="54" height="46" rx="6" fill="url(#exNodeL)" stroke="#0891B2" stroke-width="1.0"/>
+      <rect x="13" y="12" width="28" height="20" rx="2" fill="none" stroke="#0891B2" stroke-width="0.9" opacity="0.5"/>
+    </g>
+
+    <g transform="translate(655,145)">
+      <rect width="54" height="46" rx="6" fill="url(#exNodeL)" stroke="#2563EB" stroke-width="1.0"/>
+      <rect x="13" y="12" width="28" height="20" rx="2" fill="none" stroke="#2563EB" stroke-width="0.9" opacity="0.5"/>
+    </g>
+
+    <g transform="translate(835,108)">
+      <rect width="58" height="50" rx="6" fill="url(#exNodeL)" stroke="#6366F1" stroke-width="1.0"/>
+      <rect x="15" y="13" width="28" height="22" rx="2" fill="none" stroke="#6366F1" stroke-width="0.9" opacity="0.5"/>
+      <circle cx="48" cy="10" r="2.2" fill="#6366F1"/>
+    </g>
+
+    <circle cx="200" cy="85" r="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.0"/>
+    <circle cx="200" cy="180" r="5.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.0"/>
+    <circle cx="990" cy="75" r="5.5" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.0"/>
+    <circle cx="990" cy="195" r="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.0"/>
   </g>
 
-  <g class="m" fill="#64748B" font-size="8" opacity="0.6">
-    <text x="40" y="30">GRAPH.VIEW</text>
-    <text x="1000" y="30">MESH</text>
+  <g>
+    <text class="t" x="550" y="238" text-anchor="middle" fill="#0F172A" font-size="15" font-weight="600" letter-spacing="0.10em">REPOSITORY MESH</text>
+    <text class="m" x="550" y="258" text-anchor="middle" fill="#64748B" font-size="10">systems | experiments | infrastructure</text>
   </g>
 </svg>

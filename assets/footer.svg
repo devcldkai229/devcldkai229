@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 140" role="img" aria-labelledby="ftTitle ftDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 120" role="img" aria-labelledby="ftTitle ftDesc">
   <title id="ftTitle">OPSIDIAN signature footer</title>
   <desc id="ftDesc">Build thoughtfully. Scale responsibly. Keep exploring.</desc>
   <defs>
     <linearGradient id="ftBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080F1E"/>
-      <stop offset="50%" stop-color="#0C1829"/>
+      <stop offset="55%" stop-color="#0B1526"/>
       <stop offset="100%" stop-color="#13243A"/>
     </linearGradient>
     <linearGradient id="ftLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#22D3EE" stop-opacity="0.6"/>
-      <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.6"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#3B82F6" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
     </linearGradient>
     <style>
@@ -20,46 +20,39 @@
         .anim, .anim * { animation: none !important; }
         .packet { display: none; }
       }
-      @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
-      .pulse { animation: pulse 5s ease-in-out infinite; }
     </style>
   </defs>
 
-  <rect width="1100" height="140" rx="10" fill="url(#ftBg)"/>
-  <rect x="1" y="1" width="1098" height="138" rx="9" fill="none" stroke="#1E3A5F" stroke-width="1"/>
+  <rect width="1100" height="120" rx="10" fill="url(#ftBg)"/>
+  <rect x="1" y="1" width="1098" height="118" rx="9" fill="none" stroke="#1A3352" stroke-width="1"/>
 
-  <g fill="none" stroke="#3B82F6" stroke-width="0.9" opacity="0.35">
-    <path d="M40 70 H180 Q200 70 200 50 H320"/>
-    <path d="M40 70 H160 Q180 70 180 90 H280"/>
-    <path d="M820 50 H900 Q920 50 920 70 H1060"/>
-    <path d="M780 90 H880 Q900 90 900 70 H1060"/>
-    <path d="M320 50 V30 H400"/>
-    <path d="M280 90 V110 H380"/>
-    <path d="M780 90 V110 H700"/>
-    <path d="M820 50 V30 H740"/>
+  <!-- Sparse circuit traces -->
+  <g fill="none" stroke="#3B82F6" stroke-width="0.9" opacity="0.28">
+    <path d="M40 60 H170 Q190 60 190 42 H300"/>
+    <path d="M40 60 H150 Q170 60 170 78 H260"/>
+    <path d="M800 42 H900 Q920 42 920 60 H1060"/>
+    <path d="M840 78 H900 Q920 78 920 60 H1060"/>
   </g>
 
-  <g class="anim" fill="#22D3EE">
-    <circle class="pulse" cx="200" cy="50" r="3"/>
-    <circle class="pulse" cx="180" cy="90" r="2.5" style="animation-delay:1s"/>
-    <circle class="pulse" cx="320" cy="50" r="2.5" style="animation-delay:2s"/>
-    <circle class="pulse" cx="900" cy="70" r="3" style="animation-delay:0.5s"/>
-    <circle class="pulse" cx="920" cy="70" r="2" style="animation-delay:1.5s"/>
-    <circle class="pulse" cx="400" cy="30" r="2" fill="#818CF8"/>
-    <circle class="pulse" cx="700" cy="110" r="2" fill="#3B82F6"/>
+  <!-- Sparse cyan nodes -->
+  <g fill="#22D3EE">
+    <circle cx="190" cy="42" r="2.5" opacity="0.75"/>
+    <circle cx="170" cy="78" r="2" opacity="0.50"/>
+    <circle cx="920" cy="60" r="2.5" opacity="0.70"/>
+    <circle cx="300" cy="42" r="1.8" fill="#818CF8" opacity="0.45"/>
   </g>
 
-  <g class="anim" fill="#22D3EE">
-    <circle class="packet" r="2" fill="#22D3EE" opacity="0.9">
-      <animateMotion dur="6s" repeatCount="indefinite" path="M40 70 H180 Q200 70 200 50 H320"/>
+  <g class="anim">
+    <circle class="packet" r="1.8" fill="#22D3EE" opacity="0.85">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M40 60 H170 Q190 60 190 42 H300"/>
     </circle>
-    <circle class="packet" r="1.8" fill="#818CF8" opacity="0.85">
-      <animateMotion dur="7s" repeatCount="indefinite" begin="1.5s" path="M820 50 H900 Q920 50 920 70 H1060"/>
+    <circle class="packet" r="1.6" fill="#818CF8" opacity="0.80">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="2s" path="M800 42 H900 Q920 42 920 60 H1060"/>
     </circle>
   </g>
 
-  <line x1="200" y1="70" x2="900" y2="70" stroke="url(#ftLine)" stroke-width="1"/>
+  <line x1="240" y1="60" x2="860" y2="60" stroke="url(#ftLine)" stroke-width="1"/>
 
-  <text class="t" x="550" y="58" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="500" font-style="italic">Build thoughtfully. Scale responsibly. Keep exploring.</text>
-  <text class="m" x="550" y="100" text-anchor="middle" fill="#22D3EE" font-size="11" letter-spacing="0.35em" font-weight="600">OPSIDIAN</text>
+  <text class="t" x="550" y="48" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="500" font-style="italic">Build thoughtfully. Scale responsibly. Keep exploring.</text>
+  <text class="m" x="550" y="88" text-anchor="middle" fill="#22D3EE" font-size="11" letter-spacing="0.35em" font-weight="600">OPSIDIAN</text>
 </svg>

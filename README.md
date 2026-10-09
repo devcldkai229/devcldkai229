@@ -21,11 +21,11 @@ I'm a software engineer based in **Ho Chi Minh City, Vietnam**, focused on **bac
 **Software Engineer | Backend & Distributed Systems | Cloud & DevOps**
 
 <p align="center">
-  <a href="https://github.com/devcldkai229?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0F172A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="Repositories"/></a>
-  &nbsp;
-  <a href="#explore-my-repositories"><img src="https://img.shields.io/badge/Explore-13243A?style=for-the-badge&logo=githubactions&logoColor=3B82F6" alt="Explore"/></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/opsidian-ngykhai"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/devcldkai229?tab=repositories">Repositories</a>
+  &nbsp;&middot;&nbsp;
+  <a href="#explore-my-repositories">Explore</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/opsidian-ngykhai">LinkedIn</a>
 </p>
 
 ---
@@ -33,10 +33,13 @@ I'm a software engineer based in **Ho Chi Minh City, Vietnam**, focused on **bac
 ### Engineering Focus
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Backend_Engineering-080F1E?style=flat-square&labelColor=13243A&color=22D3EE" alt="Backend Engineering"/>
-  <img src="https://img.shields.io/badge/Distributed_Systems-080F1E?style=flat-square&labelColor=13243A&color=3B82F6" alt="Distributed Systems"/>
-  <img src="https://img.shields.io/badge/Cloud_&_DevOps-080F1E?style=flat-square&labelColor=13243A&color=818CF8" alt="Cloud and DevOps"/>
-  <img src="https://img.shields.io/badge/System_Design-080F1E?style=flat-square&labelColor=13243A&color=22D3EE" alt="System Design"/>
+  <code>Backend Engineering</code>
+  &nbsp;&middot;&nbsp;
+  <code>Distributed Systems</code>
+  &nbsp;&middot;&nbsp;
+  <code>Cloud &amp; DevOps</code>
+  &nbsp;&middot;&nbsp;
+  <code>System Design</code>
 </p>
 
 I work across the stack when needed, but my center of gravity is **server-side architecture**: service boundaries, messaging, data consistency, infrastructure automation, and reliability.
@@ -55,60 +58,74 @@ I work across the stack when needed, but my center of gravity is **server-side a
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=spring,dotnet" alt="Spring Boot, ASP.NET Core"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Gin"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/REST_APIs-13243A?style=flat-square&color=22D3EE" alt="REST APIs"/>
-  <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" alt="gRPC"/>
+</p>
+
+<p align="center">
+  <code>Gin</code>
+  &nbsp;&middot;&nbsp;
+  <code>LangGraph</code>
+  &nbsp;&middot;&nbsp;
+  <code>REST APIs</code>
+  &nbsp;&middot;&nbsp;
+  <code>gRPC</code>
+  &nbsp;&middot;&nbsp;
+  <code>ROS 2</code>
 </p>
 
 ### Frontend
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,tailwind" alt="React, Vite, Tailwind CSS"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios"/>
+</p>
+
+<p align="center">
+  <code>Axios</code>
 </p>
 
 ### Databases, Caching & Messaging
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka" alt="PostgreSQL, MongoDB, Redis, Kafka"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="Microsoft SQL Server"/>
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
+</p>
+
+<p align="center">
+  <code>SQL Server</code>
+  &nbsp;&middot;&nbsp;
+  <code>RabbitMQ</code>
 </p>
 
 ### Cloud, Containers & Infrastructure
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux" alt="AWS, Docker, Kubernetes, Terraform, Linux"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm"/>
+</p>
+
+<p align="center">
+  <code>Helm</code>
 </p>
 
 ### DevOps & Observability
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=githubactions,prometheus,grafana" alt="GitHub Actions, Prometheus, Grafana"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/CI%2FCD-13243A?style=flat-square&logo=githubactions&logoColor=22D3EE" alt="CI/CD"/>
-  <img src="https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white" alt="Elastic Stack"/>
 </p>
 
-### Robotics
-
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=22D3EE" alt="ROS 2"/>
+  <code>CI/CD</code>
+  &nbsp;&middot;&nbsp;
+  <code>Elastic Stack</code>
 </p>
 
 ### Toolchain
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,bash,maven,nginx" alt="Git, GitHub, Bash, Maven, Nginx"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/OpenAPI%20%2F%20Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=000" alt="OpenAPI Swagger"/>
-  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"/>
+</p>
+
+<p align="center">
+  <code>OpenAPI / Swagger</code>
+  &nbsp;&middot;&nbsp;
+  <code>OpenTelemetry</code>
 </p>
 
 ---
@@ -130,12 +147,17 @@ I work across the stack when needed, but my center of gravity is **server-side a
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Scalability-080F1E?style=flat-square&labelColor=13243A&color=22D3EE" alt="Scalability"/>
-  <img src="https://img.shields.io/badge/Fault_Tolerance-080F1E?style=flat-square&labelColor=13243A&color=3B82F6" alt="Fault Tolerance"/>
-  <img src="https://img.shields.io/badge/Event--Driven-080F1E?style=flat-square&labelColor=13243A&color=818CF8" alt="Event-Driven Architecture"/>
-  <img src="https://img.shields.io/badge/Observability-080F1E?style=flat-square&labelColor=13243A&color=22D3EE" alt="Observability"/>
-  <img src="https://img.shields.io/badge/Performance-080F1E?style=flat-square&labelColor=13243A&color=3B82F6" alt="Performance"/>
-  <img src="https://img.shields.io/badge/Cloud--Native-080F1E?style=flat-square&labelColor=13243A&color=818CF8" alt="Cloud-Native Design"/>
+  <code>Scalability</code>
+  &nbsp;&middot;&nbsp;
+  <code>Fault Tolerance</code>
+  &nbsp;&middot;&nbsp;
+  <code>Event-Driven</code>
+  &nbsp;&middot;&nbsp;
+  <code>Observability</code>
+  &nbsp;&middot;&nbsp;
+  <code>Performance</code>
+  &nbsp;&middot;&nbsp;
+  <code>Cloud-Native</code>
 </p>
 
 ---
@@ -155,9 +177,7 @@ I keep experiments, systems work, and infrastructure explorations in my public r
 <br/>
 
 <p align="center">
-  <a href="https://github.com/devcldkai229?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_All_Repositories-%E2%86%92-22D3EE?style=for-the-badge&labelColor=080F1E&color=22D3EE" alt="Explore All Repositories"/>
-  </a>
+  <strong><a href="https://github.com/devcldkai229?tab=repositories">Explore All Repositories -&gt;</a></strong>
 </p>
 
 ---
@@ -187,9 +207,9 @@ I keep experiments, systems work, and infrastructure explorations in my public r
 
 <p align="center">
   <a href="https://github.com/devcldkai229">GitHub</a>
-  |
+  &nbsp;|&nbsp;
   <a href="https://github.com/devcldkai229?tab=repositories">Repositories</a>
-  |
+  &nbsp;|&nbsp;
   <a href="https://www.linkedin.com/in/opsidian-ngykhai">LinkedIn</a>
 </p>
 
